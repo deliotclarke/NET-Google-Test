@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NET_Google_Tests.Data;
+using NET_Google_Tests.Models;
 
 [assembly: HostingStartup(typeof(NET_Google_Tests.Areas.Identity.IdentityHostingStartup))]
 namespace NET_Google_Tests.Areas.Identity
